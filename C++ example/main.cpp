@@ -1,6 +1,6 @@
 /* This is C++ code for File I/O */
 #include <iostream> // library that contain basic input/output functions
-#include <fstream>  // library that contains FILE input/output functions
+#include <fstream>  // library that contains FILE input/output functions 
 
 using namespace std;		//Use namespace declaration to allow all elements in the std namespace to be accessed in an unqualified manner (without the std:: prefix).
 
