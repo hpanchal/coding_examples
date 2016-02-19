@@ -4,7 +4,7 @@
 
 using namespace std;		//Use namespace declaration to allow all elements in the std namespace to be accessed in an unqualified manner (without the std:: prefix).
 
-//Function to comapre string from User and file
+//Function to comapare string from User and file
 int FindString(char User_buf[], char File_buf[])
 {
    int i = 0;
@@ -63,7 +63,7 @@ int main()
 			
 			cout<<"String from file = " << array<<endl;
 			
-			flag = FindString(word, array);			// Function to comapre two strings character by character
+			flag = FindString(word, array);			// Function to comapare two strings character by character
 			
 			if (flag == 0)							//Function return 0 if strings are equal
         	{
